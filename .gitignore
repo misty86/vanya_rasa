@@ -1,0 +1,4 @@
+credentials.yml
+results/
+*/__pycache__
+.rasa

@@ -1,0 +1,20 @@
+version: "3.0"
+
+intents:
+  - weather_search
+  - agreement
+  - rejection
+  - lll
+
+responses:
+  utter_greet:
+  - text: "Привет! Хочешь про погоду узнать?"
+  utter_pidor:
+  - text: "Пидора ответ!"
+
+actions:
+  - get_weather
+
+session_config:
+  session_expiration_time: 60  # value in minutes
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,16 @@
+version: "3.0"
+
+stories:
+- story: basic
+  steps:
+  - intent: lll
+  - action: utter_greet
+  - intent: agreement
+  - action: get_weather
+
+- story: basic
+  steps:
+  - intent: lll
+  - action: utter_greet
+  - intent: rejection
+  - action: utter_pidor
